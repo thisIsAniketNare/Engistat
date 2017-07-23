@@ -1,0 +1,14 @@
+<resources>
+
+    <style mName="AppTheme.NoActionBar">
+        <item mName="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item mName="windowActionBar">false</item>
+        <item mName="windowNoTitle">true</item>
+        <item mName="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item mName="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.NoTitleBar.Fullscreen.AppNoActionBar" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style>
+</resources>

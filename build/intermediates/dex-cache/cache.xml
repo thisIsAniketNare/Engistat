@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\prachi\AndroidStudioProjects\Engistat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a5f50e080b426327fe1851f6f7b5f836bff6ac9f">
+        <dex dex="C:\Users\prachi\AndroidStudioProjects\Engistat\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.0_daba75923f378b3d95a7bfda1e5b0985e83d6d0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\prachi\AndroidStudioProjects\Engistat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="30854fe0b2a6e495a821d8f41f52c0a1d18d8d2a">
+        <dex dex="C:\Users\prachi\AndroidStudioProjects\Engistat\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.0_14f504ec436847058e113727d95c66a966e95f7b.jar" />
+    </item>
+
+</items>

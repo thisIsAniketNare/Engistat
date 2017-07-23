@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ProductBuyRent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:id="@+id/image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="22sp"
+        android:id="@+id/name"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a short description about the product should be updated according to the product"
+        android:id="@+id/description"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="QUANTITY"
+        android:id="@+id/quantity" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/quantity_picker">
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="+"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/background_dark"
+            android:onClick="increment"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/quantity_text_view"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/background_dark"
+            android:text="-"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:onClick="decrement"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/tan_background"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="BUY"
+            android:id="@+id/buy"
+            android:visibility="gone"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="RENT"
+            android:id="@+id/rent"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
